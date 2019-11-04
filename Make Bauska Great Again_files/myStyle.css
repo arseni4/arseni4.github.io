@@ -1,0 +1,39 @@
+img.box {
+    position: relative;
+    top: -30px; 
+    margin-bottom: -30px;
+}
+
+.parent { 
+    //position: relative; 
+    text-align:right; 
+    width:56%;
+}
+
+p.parent > img.child {
+    //position: absolute;
+	margin-left: 10%;
+	//float:right;
+    height: auto;
+	width: 50%;
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div {
+    width: 20%;
+    height: 20%;
+    margin-left: 30%;
+    //position: absolute;
+	background-image: url("3_project.png");
+	background-size: cover;
+	
+}
+
+
+h1.heading1 {
+    //position: relative; 
+    margin-left: 20px;
+	clear: right;
+  }
