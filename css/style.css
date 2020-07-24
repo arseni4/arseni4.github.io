@@ -3317,6 +3317,11 @@ img:not([src]) {
 	padding: .25em .6em
 }
 
+.t410{
+	width:500px!important;
+	margin:auto;
+}
+
 .t410 .jx-image img {
 	width: auto
 }
@@ -3326,9 +3331,7 @@ img:not([src]) {
 }
 
 .t410 .juxtapose {
-	width: 500px!important;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%!important;
 	
 }
 
