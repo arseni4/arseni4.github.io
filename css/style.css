@@ -1453,7 +1453,9 @@
 
 .t-margin_auto {
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
 }
 
 .t-valign_middle {
@@ -3317,8 +3319,14 @@ img:not([src]) {
 	padding: .25em .6em
 }
 
+.t410__col{
+	margin: auto;
+	width: 50%;
+}
+
 .t410{
-	width:500px!important;
+	width:90%!important;
+	max-width: 500px;
 	margin:auto;
 }
 
@@ -3327,7 +3335,8 @@ img:not([src]) {
 }
 
 .t410__wrapper {
-	position: relative
+	position: relative;
+	margin:auto;
 }
 
 .t410 .juxtapose {
@@ -4043,7 +4052,7 @@ img:not([src]) {
 }
 
 .t734__wrapper {
-	padding: 60px 0
+	padding-top: auto;
 }
 
 .t734__table {
@@ -4067,7 +4076,8 @@ img:not([src]) {
 }
 
 .t734__button {
-	padding-top: 50px
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 @media screen and (max-width:1400px) {
